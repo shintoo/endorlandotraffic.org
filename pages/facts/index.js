@@ -4,7 +4,7 @@ export default function Facts(props) {
   return (<div className={styles.facts}>
 <h3 >GROWTH AND TRAFFIC</h3>
 	<ul>
-		<li><strong>Extraordinary population growth.</strong> Central Florida has been growing by a net of nearly 1,000 new residents every week. By the year 2030, projections have the regional population at 5.2 million.<sup><a href="#footnotes1" aria-label="Footnote 1">1</a></sup> Orange County is also one of the world's leading tourism destinations. Prior to the pandemic, Orange County had 75 million visitors in 2019.</li>
+		<li><strong>Extraordinary population growth.</strong> Central Florida has been growing by a net of nearly 1,000 new residents every week. By the year 2030, projections have the regional population at 5.2 million.<sup><a href="#footnotes1" aria-label="Footnote 1">1</a></sup> Orange County is also one of the world&apos;s leading tourism destinations. Prior to the pandemic, Orange County had 75 million visitors in 2019.</li>
 		<li><strong>Congestion continues to increase.</strong> Traffic delays also cost commuters money. For the typical Orlando metro area commuter, the average cost was $1,261 in 2019.<sup><a href="#footnotes2" aria-label="Footnote 2">2</a></sup></li>
 		<li><strong>Commuting times are increasing.</strong> Prior to the pandemic, Central Florida commuters spent an average of 61 hours per year in traffic congestion.<sup><a href="#footnotes2" aria-label="Footnote 2">2</a></sup> That’s roughly an hour a week added to the regular commute. As recovery and future growth continue, the daily commute is expected to get worse.</li>
 		<li><strong>Influx of workers coming into Orange County.</strong> Data from the Orlando Economic Partnership shows that tens of thousands of workers in Orange County commute from the surrounding seven counties on a daily basis.</li>
@@ -16,7 +16,7 @@ export default function Facts(props) {
 	</ul>
 	<h3 >ENVIRONMENTAL CHALLENGES</h3>
 	<ul>
-		<li><strong>Transportation impact on air quality.</strong> Transportation makes up 36% of Orange County's greenhouse gas emissions. According to the American Public Transportation Association increasing public transportation improves air quality, lowers vehicle emissions, and reduces noise pollution.</li>
+		<li><strong>Transportation impact on air quality.</strong> Transportation makes up 36% of Orange County&apos;s greenhouse gas emissions. According to the American Public Transportation Association increasing public transportation improves air quality, lowers vehicle emissions, and reduces noise pollution.</li>
 	</ul>
 	<h3 >TRANSPORTATION CHALLENGES</h3>
 	<ul>
