@@ -51,14 +51,14 @@ export default function Facts(props) {
 	<hr />
 	<p id="footnotes">
 		<em>*Based on the Florida Department of Revenue projection as of September 27, 2019</em> <br/>
-		<sup id="footnotes1">1</sup> According to the <a target="_blank" aria-describedby="p-link" href="https://orlando.org/wp-content/uploads/sites/4/2020/04/Transportation2030Report.pdf">Office of Economic Development’s 2030 report</a> <br/>
-		<sup id="footnotes2">2</sup> According to <a target="_blank" aria-describedby="i-link" href="https://mobility.tamu.edu/umr/congestion-data/">Texas Transportation Institute Urban Mobility Report, 2019</a> <br/>
-		<sup id="footnotes3">3</sup> According to the <a target="_blank" aria-describedby="i-link" href="https://www.iyield4peds.org/dangerous-by-design-orlando-sanford-kissimmee-region-and-florida-top-lists-as-most-dangerous-for-pedestrians/">2021 Dangerous by Design Report from Smart Growth America</a>
+		<sup id="footnotes1">1</sup> According to the <a target="_blank" rel="noreferrer" aria-describedby="p-link" href="https://orlando.org/wp-content/uploads/sites/4/2020/04/Transportation2030Report.pdf">Office of Economic Development’s 2030 report</a> <br/>
+		<sup id="footnotes2">2</sup> According to <a target="_blank" rel="noreferrer" aria-describedby="i-link" href="https://mobility.tamu.edu/umr/congestion-data/">Texas Transportation Institute Urban Mobility Report, 2019</a> <br/>
+		<sup id="footnotes3">3</sup> According to the <a target="_blank" rel="noreferrer" aria-describedby="i-link" href="https://www.iyield4peds.org/dangerous-by-design-orlando-sanford-kissimmee-region-and-florida-top-lists-as-most-dangerous-for-pedestrians/">2021 Dangerous by Design Report from Smart Growth America</a>
 		
-      {/*<!--<sup id="footnotes3">3</sup> According to <a target="_blank" aria-describedby="i-link" href="https://www.everycrsreport.com/reports/R45350.html">Funding and Financing Transportation Reports</a> <br/>-->
+      {/*<!--<sup id="footnotes3">3</sup> According to <a target="_blank" rel="noreferrer" aria-describedby="i-link" href="https://www.everycrsreport.com/reports/R45350.html">Funding and Financing Transportation Reports</a> <br/>-->
 
 		
-    <!--<sup id="footnotes4">4</sup> According to <a target="_blank" aria-describedby="i-link" href="https://www.usnews.com/news/best-states/articles/these-are-the-most-dangerous-states-for-cyclists">Most Dangerous States for Bicyclists, U.S. News and World Report</a>-->*/}
+    <!--<sup id="footnotes4">4</sup> According to <a target="_blank" rel="noreferrer" aria-describedby="i-link" href="https://www.usnews.com/news/best-states/articles/these-are-the-most-dangerous-states-for-cyclists">Most Dangerous States for Bicyclists, U.S. News and World Report</a>-->*/}
 	</p>
   </div>)
 }
