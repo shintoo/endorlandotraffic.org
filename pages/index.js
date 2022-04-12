@@ -29,21 +29,21 @@ export default function Home() {
         </div>
 
         <h1 className={styles.time}>
-          It's time to do something about Orlando's traffic problems.
+          It&apos;s time to do something about Orlando&apos;s traffic problems.
         </h1>
 
         <div className={styles.grid}>
           <Link href="/facts">
             <div className={styles.card}>
               <h2>Facts &rarr;</h2>
-              <p>What's so bad about traffic?</p>
+              <p>What&apos;s so bad about traffic?</p>
             </div>
           </Link>
 
           <Link href="/action">
             <div className={styles.card}>
               <h2>Action &rarr;</h2>
-              <p>Let's do something about it.</p>
+              <p>Let&apos;s do something about it.</p>
             </div>
           </Link>
         </div>
