@@ -13,8 +13,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-
       <main className={styles.main}>
         <div className={styles.splash}>
           <h1 className={styles.title}>
