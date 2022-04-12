@@ -33,27 +33,32 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/facts">
             <div className={styles.card}>
-              <h2>Facts &rarr;</h2>
-              <p>What&apos;s so bad about traffic?</p>
+              <div className={styles.blurb}>
+                <h2>Facts &rarr;</h2>
+                <p>What&apos;s so bad about traffic?</p>
+              </div>
+              <div className={styles.imagecontainer}>
+                <img src="/traffic-facts.jpg" alt="Facts about traffic" />
+              </div>
             </div>
           </Link>
 
           <Link href="/action">
             <div className={styles.card}>
-              <h2>Action &rarr;</h2>
-              <p>Let&apos;s do something about it.</p>
+              <div className={styles.blurb}>
+                <h2>Action &rarr;</h2>
+                <p>Let&apos;s do something about it.</p>
+              </div>
+              <div className={styles.imagecontainer}>
+                <img src="/art.jpg" alt="Modern street design" />
+              </div>
             </div>
           </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Bing bong.
-        </a>
+        EndOrlandoTraffic.org is unaffiliated with Orange County.
       </footer>
     </div>
   )
