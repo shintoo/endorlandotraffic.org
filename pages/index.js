@@ -56,10 +56,6 @@ export default function Home() {
           </Link>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        EndOrlandoTraffic.org is unaffiliated with Orange County.
-      </footer>
     </div>
   )
 }

@@ -1,0 +1,21 @@
+.action {
+  margin: 1em;
+}
+
+.action > ul > li {
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 680px) {
+  .action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .action > * {
+    max-width: 800px;
+  }
+}

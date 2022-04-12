@@ -1,0 +1,21 @@
+.facts {
+  margin: 1em;
+}
+
+.facts > ul > li {
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 680px) {
+  .facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .facts > * {
+    max-width: 800px;
+  }
+}

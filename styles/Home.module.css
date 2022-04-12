@@ -30,24 +30,6 @@
   margin-bottom: 1em;
 }
 
-.footer {
-  color: #ccc;
-  font-size: .7rem;
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
 .title a {
   color: white;
   text-decoration: none;
