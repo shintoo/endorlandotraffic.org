@@ -1,10 +1,35 @@
 .facts {
-  margin: 1em;
+  margin: 1rem;
+  margin-top: 5rem;
 }
 
-.facts > ul > li {
-  line-height: 1.5;
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  color: #00A752;
+}
+
+.facts > div {
   margin-top: 1rem;
+}
+
+.facts > div > div > ul {
+  padding-left: 1rem;
+}
+
+.facts > div > div > ul > li {
+  margin-top: 1rem;
+  margin-left: 0;
+  line-height: 1.5;
+}
+
+.facts > hr {
+  border: 1px #eee solid;
+}
+
+.footnotes {
+  color: #aaa;
+  font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 680px) {

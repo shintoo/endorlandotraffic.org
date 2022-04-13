@@ -27,7 +27,7 @@ export default function Home() {
         </div>
 
         <h1 className={styles.time}>
-          It&apos;s time to do something about Orlando&apos;s traffic problems.
+          It&apos;s time to do something about Orlando&apos;s transportation problems.
         </h1>
 
         <div className={styles.grid}>

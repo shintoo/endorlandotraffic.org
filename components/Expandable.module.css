@@ -1,0 +1,19 @@
+.button {
+  cursor: pointer;
+  width: 100%;
+  background: #f0f0fa;
+  padding: 18px;
+  border: none;
+}
+
+.expandable {
+  overflow: hidden;
+  padding: 0 18px;
+  background-color: #f8f8fa;
+  max-height: 0;
+  transition: max-height 0.4s ease-out;
+}
+
+.expanded {
+  max-height: 900px;
+}
