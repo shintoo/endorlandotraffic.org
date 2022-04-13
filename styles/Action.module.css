@@ -8,24 +8,59 @@
   margin-top: 1rem;
 }
 
-.subheading {
-  font-size: 1.8rem;
-  color: #00A752;
+.action > p {
+  margin-bottom: 2rem;
 }
 
-.appear {
+.heading {
+  margin-top: 8rem;
+  font-size: 1.8rem;
+  color: #00A752;
+  text-align: center;
+}
+
+.calltoaction {
   font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
 }
 
-.appear > a {
+.calltoaction > a {
   color: #137EBB;
   font-size: 1.5rem;
 }
 
+.links > li > a {
+  color: #137EBB;
+  font-weight: bold;
+}
+
+.links > li {
+  margin-bottom: .4rem;
+}
 .waystohelp > * {
   margin-top: 1rem;
+}
+
+.contactinfo {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.contactinfo > a {
+  font-weight: bold;
+  color: #137EBB;
+}
+
+.tweet {
+  color: #1DA1F2;
+  font-weight: bold;
+}
+
+.template {
+  background-color: #f0f0f0;
+  margin: .5rem;
+  padding: 1rem;
 }
 
 @media only screen and (min-width: 680px) {
@@ -38,4 +73,11 @@
   .action > * {
     max-width: 800px;
   }
+
+  .template {
+    margin: 1rem;
+    padding: 3rem;
+  }
+
+
 }

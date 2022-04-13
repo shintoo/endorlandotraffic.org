@@ -4,7 +4,18 @@ import styles from '../../styles/Facts.module.css'
 export default function Facts(props) {
   return (<div className={styles.facts}>
   <h3 className={styles.heading}>Facts</h3>
-  <Expandable title="Growth and Traffic" defaultState={true}>
+  <div className={styles.takeaways}>
+    <span className={styles.subheading}>Key Takeaways</span>
+    <ul>
+      <li> Orlando is growing fast, and will reach over <strong>5 million</strong> residents by 2030. </li>
+      <li> Orlando ranks as the most dangerous area for pedestrians and cyclists <strong>in the country</strong>. </li>
+      <li> Orange County is preparing to vote for the <strong>Orange County Transportation Initiative</strong>,
+           which will improve commute times and traffic congestion. </li>
+      <li> The infrastructure improvements will receive a majority of funding from tourists visiting Orange County, rather than residents,
+           through a penny sales tax.</li>
+    </ul>
+  </div>
+  <Expandable title="Growth and Traffic">
 	<ul>
 		<li><strong>Extraordinary population growth.</strong><br /> Central Florida has been growing by a net of nearly 1,500 new residents every week. By the year 2030, projections have the regional population at 5.2 million.<sup><a href="#footnotes1" aria-label="Footnote 1">1</a></sup> Orange County is also one of the world&apos;s leading tourism destinations. Prior to the pandemic, Orange County had 75 million visitors in 2019.</li>
 		<li><strong>Congestion continues to increase.</strong><br /> Traffic delays also cost commuters money. For the typical Orlando metro area commuter, the average cost was $1,261 in 2019.<sup><a href="#footnotes2" aria-label="Footnote 2">2</a></sup></li>
