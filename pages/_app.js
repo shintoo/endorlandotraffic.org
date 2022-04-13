@@ -6,10 +6,10 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
-  const subtitle = router.pathname.charAt(1).toUpperCase() + router.pathname.slice(2)
+  const subtitle = router.pathname ? "- " + router.pathname.charAt(1).toUpperCase() + router.pathname.slice(2) : ""
   return (<>
     <Head>
-      <title>EndOrlandoTraffic.org - {subtitle}</title>
+      <title>EndOrlandoTraffic.org</title>
       <meta name="description" content="How we can improve Orlando transportation" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
