@@ -11,6 +11,7 @@
 
 .facts > div {
   margin-top: 1rem;
+  width: 80vw;
 }
 
 .facts > div > div > ul {

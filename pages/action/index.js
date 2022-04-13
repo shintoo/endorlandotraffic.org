@@ -25,7 +25,7 @@ export default function Action(props) {
             you can still fill out a Notice of Intent to Speak form in order to appear before the Board.
           </p>
           <p>
-            You will have 2 minutes to speak, but you can simply say "I am present in support of the Orange County Transportation Initiative." Feel free to speak your mind about traffic and how it can be alleviated with improved bus service, cycling safety, and pedestrian safety.
+            You will have 2 minutes to speak, but you can simply say &quot;I am present in support of the Orange County Transportation Initiative.&quot; Feel free to speak your mind about traffic and how it can be alleviated with improved bus service, cycling safety, and pedestrian safety.
           </p>
         </Expandable>
         <Expandable title="Email Your County Representatives">
