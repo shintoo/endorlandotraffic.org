@@ -108,7 +108,7 @@ export default function Action(props) {
         </Expandable>
         <Expandable title="Raise Awareness for the Orange County Transportation Initiative">
           <p>
-            It's essential that more Orange County residents are aware of the Orange County Transportation Initiative.
+            It&apos;s essential that more Orange County residents are aware of the Orange County Transportation Initiative.
           </p>
           <p>Here are some links that you can share with your community:</p>
           <ul className={styles.links}>
