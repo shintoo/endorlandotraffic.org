@@ -18,7 +18,7 @@ export default function Action(props) {
       </p>
       <p>
         <span className={styles.subheading}>To do this, we need better infrastructure.</span> <br />
-        Lynx buses should come once every 15 or 30 minutes, not once every one or two hours. In busy areas, buses should be separated from cars, so you don't get caught behind a bus at a stop. SunRail should serve the evenings weekends, so no one has to deal with I4 traffic. Bike lanes need to be separate from car lanes, so cyclists don't hold up traffic.
+        Lynx buses should come once every 15 or 30 minutes, not once every one or two hours. In busy areas, buses should be separated from cars, so you don&apos;t get caught behind a bus at a stop. SunRail should serve the evenings weekends, so no one has to deal with I4 traffic. Bike lanes need to be separate from car lanes, so cyclists don&apos;t hold up traffic.
       </p>
       <img src="/graphics/bulb.png" />
       <h3 className={styles.heading}>How You Can Help</h3>
