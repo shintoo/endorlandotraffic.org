@@ -7,6 +7,7 @@
 }
 
 .heading {
+  margin: 0;
   font-size: 2rem;
   text-align: center;
   color: #00A752;
@@ -49,6 +50,12 @@
 .footnotes {
   color: #aaa;
   font-size: 0.8rem;
+}
+
+.facts > img {
+  margin-top: 1rem;
+  width: 90px;
+  height: auto;
 }
 
 @media only screen and (min-width: 680px) {

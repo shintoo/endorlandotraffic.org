@@ -1,6 +1,8 @@
 .action {
   margin: 1em;
-  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
 .action > ul > li {
@@ -13,7 +15,8 @@
 }
 
 .heading {
-  margin-top: 8rem;
+  margin: 0;
+  margin-top: 3rem;
   font-size: 1.8rem;
   color: #00A752;
   text-align: center;
@@ -57,6 +60,17 @@
   font-weight: bold;
 }
 
+.subheading {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.action > img {
+  width: 90px;
+  height: auto;
+  margin-top: 1rem;
+}
+
 .template {
   background-color: #f0f0f0;
   margin: .5rem;
@@ -66,8 +80,7 @@
 @media only screen and (min-width: 680px) {
   .action {
     width: 100%;
-    margin-left: 20vw;
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 
   .action > * {
