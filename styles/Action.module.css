@@ -14,16 +14,26 @@
   margin-bottom: 2rem;
 }
 
+.bulb {
+  width: 80px;
+  margin: 1.5rem;
+}
+
 .car {
   margin: 0;
-  transform: scale(0.8);
+  width: 90px;
 }
 
 .bus {
-  margin: 0;
-  transform: scale(1.5);
+  width: 145px;
   margin-bottom: 1rem;
 }
+
+.buslane {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
 
 .heading {
   margin: 0;
@@ -75,21 +85,11 @@
   font-size: 1.2rem;
 }
 
-.action > img {
-  width: 90px;
-  height: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 
 .template {
   background-color: #f0f0f0;
   margin: .5rem;
   padding: 1rem;
-}
-
-.buslane {
-  width: 500px;
 }
 
 @media only screen and (min-width: 680px) {

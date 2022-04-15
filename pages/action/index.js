@@ -5,7 +5,7 @@ export default function Action(props) {
   const tweetParams = "text=Orlando traffic and transportation can be fixed. Learn about the Orange County Transportation Initiative:&url=https://endorlandotraffic.org"
   return (
     <div className={styles.action}>
-      <img src="/graphics/bulb.png" />
+      <img src="/graphics/bulb.png" className={styles.bulb}/>
       <h3 className={styles.heading}>How Do We Fix Traffic?</h3>
       <p>
         <span className={styles.subheading}>Fewer cars on the road.</span> <br />
