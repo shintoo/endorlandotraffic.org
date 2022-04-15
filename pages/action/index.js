@@ -50,7 +50,7 @@ export default function Action(props) {
             Enter 04/26/2022 for the Request Board Date, and your information.
           </p>
           <p className={styles.calendar}>
-            <a href="https://calendar.google.com/calendar/u/0/r/eventedit/copy/M2EyZm1kNmVucmpmNm9xY3B0M2tycTBhaGQgbmFxaXlAY2ZsNHRyYW5zaXQub3Jn" target="_blank">Copy event to your calendar.</a>
+            <a href="https://calendar.google.com/calendar/u/0/r/eventedit/copy/M2EyZm1kNmVucmpmNm9xY3B0M2tycTBhaGQgbmFxaXlAY2ZsNHRyYW5zaXQub3Jn" target="_blank" rel="noreferrer">Copy event to your calendar.</a>
           </p>
           <p>
             Simply arrive 30 minutes prior to the meeting. If you have not registered to appear by this point,
