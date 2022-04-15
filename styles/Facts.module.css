@@ -8,6 +8,7 @@
 
 .heading {
   margin: 0;
+  margin-bottom: 1rem;
   font-size: 2rem;
   text-align: center;
   color: #00A752;
@@ -27,9 +28,12 @@
   margin-top: 1rem;
 }
 
-.facts > div {
-  margin-top: 1rem;
+.expandables {
   width: 80vw;
+}
+
+.expandables > div {
+  margin-top: 1rem;
 }
 
 .video {
@@ -45,11 +49,11 @@
   margin-top: 1rem;
 }
 
-.facts > div > div > ul {
+.facts > div > div > div > ul {
   padding-left: 1rem;
 }
 
-.facts > div > div > ul > li {
+.facts > div > div > div > ul > li {
   margin-top: 1rem;
   margin-left: 0;
   line-height: 1.5;
@@ -68,6 +72,30 @@
   margin-top: 1rem;
   width: 90px;
   height: auto;
+}
+
+.continuebox {
+  cursor: pointer;
+  background: linear-gradient(90deg, rgba(0,255,0,1) 0%, rgba(0,212,255,1) 100%);
+  width: 200px;
+  margin: 2rem;
+  padding: 1px;
+  transition: background 0.2s ease-in;
+}
+
+.continue {
+  background: #fff;
+  padding: 1rem;
+}
+
+.continue > p {
+  background: linear-gradient(90deg, rgba(0,255,0,1) 0%, rgba(0,212,255,1) 100%);
+  background-clip: text;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: transparent;
+  margin: 0;
 }
 
 @media only screen and (min-width: 680px) {
