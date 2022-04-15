@@ -1,7 +1,11 @@
 import Expandable from '../../components/Expandable'
+import useWindowSize from '../../lib/window'
 import styles from '../../styles/Facts.module.css'
 
 export default function Facts(props) {
+  const { width, height } = useWindowSize()
+  console.log("window", width, height)
+
   return (<div className={styles.facts}>
   <h3 className={styles.heading}>Facts</h3>
   <div className={styles.takeaways}>
@@ -14,6 +18,10 @@ export default function Facts(props) {
       <li> The infrastructure improvements will receive a majority of funding from tourists visiting Orange County, rather than residents,
            through a penny sales tax.</li>
     </ul>
+  </div>
+  <div className={styles.video}>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/683974009?h=db38d47ff3" width={width-50} height={(width-50)/1.777} frameBorder="0" allowFullScreen></iframe>
+    <a className={styles.videosource} href="https://www.orangecountyfl.net/TrafficTransportation/TransportationInitiative.aspx">Source: OrangeCountyFL.net</a>
   </div>
   <Expandable title="Growth and Traffic">
 	<ul>
