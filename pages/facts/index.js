@@ -5,7 +5,11 @@ import styles from '../../styles/Facts.module.css'
 export default function Facts(props) {
   const { width, height } = useWindowSize()
   console.log("window", width, height)
-
+  let videoWidth = width - 50
+  if (width >= 680) {
+    videoWidth = 630;
+  }
+  let videoHeight = videoWidth / 1.78
   return (<div className={styles.facts}>
   <h3 className={styles.heading}>Facts</h3>
   <div className={styles.takeaways}>
@@ -20,7 +24,7 @@ export default function Facts(props) {
     </ul>
   </div>
   <div className={styles.video}>
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/683974009?h=db38d47ff3" width={width-50} height={(width-50)/1.777} frameBorder="0" allowFullScreen></iframe>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/683974009?h=db38d47ff3" width={videoWidth} height={videoHeight} frameBorder="0" allowFullScreen></iframe>
     <a className={styles.videosource} href="https://www.orangecountyfl.net/TrafficTransportation/TransportationInitiative.aspx">Source: OrangeCountyFL.net</a>
   </div>
   <Expandable title="Growth and Traffic">
