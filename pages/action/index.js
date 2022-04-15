@@ -5,22 +5,25 @@ export default function Action(props) {
   const tweetParams = "text=Orlando traffic and transportation can be fixed. Learn about the Orange County Transportation Initiative:&url=https://endorlandotraffic.org"
   return (
     <div className={styles.action}>
+      <img src="/graphics/bulb.png" />
       <h3 className={styles.heading}>How Do We Fix Traffic?</h3>
       <p>
-        <span className={styles.subheading}>Fewer cars on the streets.</span> <br />
+        <span className={styles.subheading}>Fewer cars on the road.</span> <br />
         Traffic congestion is at its worst at peak usage. If we can half the amount of cars on the highway during your commute, the drive just got a whole lot easier.
       </p>
+      <img src="/graphics/car-red.png" className={styles.car} />
       <p>
         <span className={styles.subheading}>More ways to get around.</span> <br />
         Less people are forced to drive if other
         means of transportation are available. Being able to walk to the grocery store,
         ride a bike to the park, and take a bus to work means less cars on the road, and a better commute for you.
       </p>
+      <img src="/graphics/bus-green.png" className={styles.bus} />
       <p>
         <span className={styles.subheading}>To do this, we need better infrastructure.</span> <br />
         Lynx buses should come once every 15 or 30 minutes, not once every one or two hours. In busy areas, buses should be separated from cars, so you don&apos;t get caught behind a bus at a stop. SunRail should serve the evenings weekends, so no one has to deal with I4 traffic. Bike lanes need to be separate from car lanes, so cyclists don&apos;t hold up traffic.
       </p>
-      <img src="/graphics/bulb.png" />
+      <img src="/graphics/bus-lane.png" className={styles.buslane}/>
       <h3 className={styles.heading}>How You Can Help</h3>
       <p>
         The Orange County Board of County Commissioners is preparing to vote on whether to include the

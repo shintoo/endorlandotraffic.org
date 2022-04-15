@@ -14,9 +14,19 @@
   margin-bottom: 2rem;
 }
 
+.car {
+  margin: 0;
+  transform: scale(0.8);
+}
+
+.bus {
+  margin: 0;
+  transform: scale(1.5);
+  margin-bottom: 1rem;
+}
+
 .heading {
   margin: 0;
-  margin-top: 3rem;
   font-size: 1.8rem;
   color: #00A752;
   text-align: center;
@@ -69,12 +79,17 @@
   width: 90px;
   height: auto;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .template {
   background-color: #f0f0f0;
   margin: .5rem;
   padding: 1rem;
+}
+
+.buslane {
+  width: 500px;
 }
 
 @media only screen and (min-width: 680px) {
@@ -92,5 +107,8 @@
     padding: 3rem;
   }
 
+  .car {
+    transform: unset;
+  }
 
 }
