@@ -9,12 +9,12 @@ export default function Action(props) {
       <h3 className={styles.heading}>How Do We Fix Traffic?</h3>
       <p>
         <span className={styles.subheading}>Fewer cars on the road.</span> <br />
-        Traffic congestion is at its worst at peak usage. If we can half the amount of cars on the highway during your commute, the drive just got a whole lot easier.
+        Traffic congestion is at its worst at peak usage. If we can halve the amount of cars on the highway during your commute, the drive just got a whole lot easier.
       </p>
       <img src="/graphics/car-red.png" className={styles.car} />
       <p>
         <span className={styles.subheading}>More ways to get around.</span> <br />
-        Less people are forced to drive if other
+        Fewer people are forced to drive if other
         means of transportation are available. Being able to walk to the grocery store,
         ride a bike to the park, and take a bus to work means less cars on the road, and a better commute for you.
       </p>
@@ -24,6 +24,10 @@ export default function Action(props) {
         Lynx buses should come once every 15 or 30 minutes, not once every one or two hours. In busy areas, buses should be separated from cars, so you don&apos;t get caught behind a bus at a stop. SunRail should serve the evenings weekends, so no one has to deal with I4 traffic. Bike lanes need to be separate from car lanes, so cyclists don&apos;t hold up traffic.
       </p>
       <img src="/graphics/bus-lane.png" className={styles.buslane}/>
+      <p className={styles.caption}>
+        Bus lanes are a cheap but very effective way of increasing bus efficiency
+        and preventing bus stop-related traffic.
+      </p>
       <h3 className={styles.heading}>How You Can Help</h3>
       <p>
         The Orange County Board of County Commissioners is preparing to vote on whether to include the
