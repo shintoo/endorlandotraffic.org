@@ -5,6 +5,12 @@
   align-items: center; 
 }
 
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .action > ul > li {
   line-height: 1.5;
   margin-top: 1rem;
@@ -38,6 +44,7 @@
   margin: 0;
   color: #aaa;
   font-size: .9rem;
+  font-style: italic;
 }
 
 .heading {
@@ -48,15 +55,16 @@
 }
 
 .calltoaction {
-  font-size: 1.3rem;
+  border-radius: 5px;
+  color: #fff;
   font-weight: bold;
+  background: #137EBB;
+  padding: 1rem;
+  width: 50%;
   text-align: center;
-  margin-bottom: 0;
-}
-
-.calltoaction > a {
-  color: #137EBB;
-  font-size: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  transition: all .2s ease-out;
+  cursor: pointer;
 }
 
 .calendar {
@@ -75,6 +83,15 @@
 }
 .waystohelp > * {
   margin-top: 1rem;
+}
+
+.priorities {
+  width: 100%;
+  padding: .2rem;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contactinfo {
@@ -100,8 +117,8 @@
 
 .template {
   background-color: #f0f0f0;
-  margin: .5rem;
-  padding: 1rem;
+  padding: .5rem;
+  border: 1px dashed #aaa;
 }
 
 @media only screen and (min-width: 680px) {
@@ -116,11 +133,11 @@
 
   .template {
     margin: 1rem;
-    padding: 3rem;
+    padding: 2rem;
   }
 
-  .car {
-    transform: unset;
+  .buslane {
+    width: 600px;
   }
 
 }

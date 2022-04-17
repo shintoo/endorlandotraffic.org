@@ -76,12 +76,8 @@ export default function Facts(props) {
     </Expandable>
   </div>
   <Link href="/action">
-    <div className={styles.continuebox}>
-      <div className={styles.continue}>
-        <p>
-          Take Action &rarr;
-        </p>
-      </div>
+    <div className={styles.takeaction}>
+      Take Action &rarr;
     </div>
   </Link>
 	<hr />

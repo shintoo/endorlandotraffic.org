@@ -18,6 +18,11 @@ export default function Home() {
             <br />
             More ways to get around.
           </p>
+          <Link href="/action">
+            <div className={styles.how}>
+              Find out how &rarr;
+            </div>
+          </Link>
         </div>
 
         <h1 className={styles.time}>
