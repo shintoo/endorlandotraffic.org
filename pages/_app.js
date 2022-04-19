@@ -10,7 +10,11 @@ function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
       <title>EndOrlandoTraffic.org</title>
-      <meta name="description" content="How we can improve Orlando transportation" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@OrlandoTraffic" />
+      <meta name="twitter:title" content="EndOrlandoTraffic.org" />
+      <meta name="twitter:description" content="Take action on Orange County transit" />
+      <meta name="twitter:image" content="https:/www.endorlandotraffic.org/card.png" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
 

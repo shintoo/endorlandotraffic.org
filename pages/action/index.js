@@ -3,7 +3,7 @@ import CopyButton from '../../components/CopyButton'
 import styles from '../../styles/Action.module.css'
 
 export default function Action(props) {
-  const tweetParams = "text=Orlando traffic and transportation can be fixed. Learn about the Orange County Transportation Initiative:&url=https://endorlandotraffic.org"
+  const tweetParams = "text=Orlando traffic and transportation can be fixed. Learn about the Orange County Transportation Initiative with @OrlandoTraffic:&url=https://endorlandotraffic.org"
   const copyText = `Dear Mayor Demings and Commissioners,
 
 The Orange County Transportation Initiative is essential for the future of our county and our city. Our population is rising fast, and traffic congestion is getting worse. Orange County is severely lacking in public transit, and this is our opportunity to change that. Infrastructure improvements for Orange County that include Lynx and Sunrail service improvements and expansion, better pedestrian and cyclist safety, and better road safety are needed now.

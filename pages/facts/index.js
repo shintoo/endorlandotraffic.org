@@ -17,7 +17,7 @@ export default function Facts(props) {
     <span className={styles.subheading}>Key Takeaways</span>
     <ul>
       <li> Orlando is growing fast, and will reach over <strong>5 million</strong> residents by 2030. </li>
-      <li> Orlando ranks as the most dangerous area for pedestrians and cyclists <strong>in the country</strong>. </li>
+      <li> Orlando ranks as the most dangerous area for pedestrians, and one of the most dangerous for cyclists <strong>in the country</strong>. </li>
       <li> Orange County is preparing to vote for the <strong>Orange County Transportation Initiative</strong>,
            which will improve commute times and traffic congestion. </li>
       <li> The infrastructure improvements will receive a majority of funding from tourists visiting Orange County, rather than residents,
