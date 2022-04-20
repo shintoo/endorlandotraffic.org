@@ -1,0 +1,13 @@
+.banner {
+  cursor: pointer;
+  background: #f00;
+  color: white;
+  padding: 1rem .5rem 1rem 1.5rem;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 680px) {
+  .banner {
+    font-size: 1.3rem;
+  }
+}
