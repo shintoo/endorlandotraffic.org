@@ -5,7 +5,7 @@ export default function Banner(props) {
   return (
     <Link href="/action#hearing">
       <div className={styles.banner}>
-        EVENT (4/26): Board of County Commissioners Public Hearing and Vote >>>
+        EVENT (4/26): Board of County Commissioners Public Hearing and Vote &gt;&gt;&gt;
       </div>
     </Link>
   )
