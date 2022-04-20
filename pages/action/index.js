@@ -1,8 +1,11 @@
 import Expandable from '../../components/Expandable'
 import CopyButton from '../../components/CopyButton'
+import { useRouter } from 'next/router'
 import styles from '../../styles/Action.module.css'
 
 export default function Action(props) {
+  const router = useRouter()
+  const autoExpand = router.asPath.split("#")[1]
   const tweetParams = "text=Orlando traffic and transportation can be fixed. Learn about the Orange County Transportation Initiative with @OrlandoTraffic:&url=https://endorlandotraffic.org"
   const copyText = `Dear Mayor Demings and Commissioners,
 
@@ -52,7 +55,7 @@ Thank you,
         to vote on. Here is how you can help make that happen.
       </p>
       <div className={styles.waystohelp}>
-        <Expandable title="Take the Survey">
+        <Expandable id="survey" defaultState={autoExpand == "survey"} title="Take the Survey">
           <p>Orange County is currently running a survey to understand ways residents
           commute and how transportation should be improved.</p>
           <p>This survey is an opportunity to tell Orange County about the importance of
@@ -66,7 +69,7 @@ Thank you,
           </div>
           <br />
         </Expandable>
-        <Expandable title="Contact Your County Representatives">
+        <Expandable id="contact" defaultState={autoExpand == "contact"}  title="Contact Your County Representatives">
           <p>
             Getting involved at the county level is vital. Calling or emailing can help. Below is a template you can use in your email. Copy the template, filling in your name and address at the end, and email it to Mayor Demings and all of the Commissioners listed below.
           </p>
@@ -143,7 +146,7 @@ Thank you,
             <span className={styles.commissioner}>
               District 5 - Emily Bonilla
             </span> <br />
-            <a target="_blank" rel="noreferrer" href="https://emilybonilla.com/contact-3/">emilybonilla.com/contact-3/</a><br />
+            <a href="mailto:district5@ocfl.net">district5@ocfl.net</a><br />
             (407) 836-7350 <br />
             Twitter: <a href="https://twitter.com/Comm_Bonilla">@Comm_Bonilla</a> <br />
           </p>
@@ -156,7 +159,7 @@ Thank you,
           </p>
         </Expandable>
 
-        <Expandable title="Speak to the Board of County Commissioners">
+        <Expandable id="hearing" defaultState={autoExpand == "hearing"} title="Speak to the Board of County Commissioners">
           <p>
             The Board of County Commissioners votes on whether to put the referendum on the November 2022 ballot on <strong>Tuesday, April 26</strong>. Before this vote, there is a <strong>public hearing</strong>.
           </p>
@@ -177,7 +180,7 @@ Thank you,
             You will have 2 minutes to speak, but you can simply say &quot;I am present in support of the Orange County Transportation Initiative.&quot; Feel free to speak your mind about traffic and how it can be alleviated with improved bus service, cycling safety, and pedestrian safety.
           </p>
         </Expandable>
-        <Expandable title="Raise Awareness for the Orange County Transportation Initiative">
+        <Expandable id="awareness" defaultState={autoExpand == "awareness"} title="Raise Awareness for the Orange County Transportation Initiative">
           <p>
             It&apos;s essential that more Orange County residents are aware of the Orange County Transportation Initiative.
           </p>

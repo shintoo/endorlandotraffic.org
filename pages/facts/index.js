@@ -5,7 +5,7 @@ import styles from '../../styles/Facts.module.css'
 
 export default function Facts(props) {
   const { width, height } = useWindowSize()
-  console.log("window", width, height)
+
   let videoWidth = width - 50
   if (width >= 680) {
     videoWidth = 630;

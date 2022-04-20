@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Banner from '../components/Banner'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -19,7 +20,8 @@ function MyApp({ Component, pageProps }) {
     </Head>
 
 
-    <div>
+    <div style={{overflowX: "hidden", boxSizing: "border-box"}}>
+      <Banner />
       <Navbar />
       <main>
         <Component {...pageProps} />

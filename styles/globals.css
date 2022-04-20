@@ -18,13 +18,3 @@ p {
 * {
   box-sizing: border-box;
 }
-
-main {
-  margin-top: 50px;
-}
-
-@media only screen and (min-width: 680px) {
-  main {
-    margin-top: 50px;
-  }
-}
