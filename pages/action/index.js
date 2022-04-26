@@ -161,17 +161,11 @@ Thank you,
 
         <Expandable id="hearing" defaultState={autoExpand == "hearing"} title="Speak to the Board of County Commissioners">
           <p>
-            The Board of County Commissioners votes on whether to put the referendum on the November 2022 ballot on <strong>Tuesday, April 26</strong>. Before this vote, there is a <strong>public hearing</strong>.
+            The Board of County Commissioners votes on whether to put the referendum on the November 2022 ballot on <strong>Tuesday, April 26</strong>. Before this vote, there is a <strong>public hearing at 2pm</strong>.
           </p>
           <div style={{textAlign: "center", margin: "2rem 0"}}>
-             <a className={styles.calltoaction} target="_blank" rel="noreferrer" href="https://www.orangecountyfl.net/BoardofCommissioners/BoardAppearanceandpubliccomment.aspx">Register to appear before the Board</a>
+             <a className={styles.calltoaction} target="_blank" rel="noreferrer" href="https://calendar.google.com/calendar/u/0/r/eventedit/copy/M2EyZm1kNmVucmpmNm9xY3B0M2tycTBhaGQgbmFxaXlAY2ZsNHRyYW5zaXQub3Jn" target="_blank" rel="noreferrer">Copy event to your calendar.</a>
           </div>
-          <p style={{textAlign: "center"}}>
-            Enter 04/26/2022 for the Request Board Date, and your information.
-          </p>
-          <p className={styles.calendar}>
-            <a href="https://calendar.google.com/calendar/u/0/r/eventedit/copy/M2EyZm1kNmVucmpmNm9xY3B0M2tycTBhaGQgbmFxaXlAY2ZsNHRyYW5zaXQub3Jn" target="_blank" rel="noreferrer">Copy event to your calendar.</a>
-          </p>
           <p>
             Simply arrive 30 minutes prior to the meeting. If you have not registered to appear by this point,
             you can still fill out a Notice of Intent to Speak form in order to appear before the Board.
