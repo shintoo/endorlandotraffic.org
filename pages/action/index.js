@@ -50,24 +50,54 @@ Thank you,
       </p>
       <h3 className={styles.heading}>How You Can Help</h3>
       <p>
-        The Orange County Board of County Commissioners is preparing to vote on whether to include the
+        The Orange County Board of County Commissioners voted to include the
         {" "}<strong>Orange County Transportation Initiative </strong> on the November 2022 ballot for residents
-        to vote on. Here is how you can help make that happen.
+        to vote on. It is up to us to ensure it passes. Here is how you can help.
       </p>
       <div className={styles.waystohelp}>
-        <Expandable id="survey" defaultState={autoExpand == "survey"} title="Take the Survey">
-          <p>Orange County is currently running a survey to understand ways residents
-          commute and how transportation should be improved.</p>
-          <p>This survey is an opportunity to tell Orange County about the importance of
-          improved Lynx and Sunrail service, better bike lanes, and pedestrian safety.</p>
-          <div className={styles.priorities}>
-            <img src="/transportation-priorities.png" className={styles.priorities} />
-            <span className={styles.caption}> Our transportation priorities</span>
-          </div>
+        <Expandable id="register" defaultState={autoExpand == "awareness"} title="Register to Vote">
+          <p>
+          To be able to vote for the transportation initiative this <strong>November 8, 2022</strong>, it is important to verify your voter registration status, and register to vote if you are not yet.
+          </p>
           <div style={{textAlign: "center", margin: "2rem 0"}}>
-          <a className={styles.calltoaction} target="_blank" rel="noreferrer" href="https://www.orangecountyfl.net/TrafficTransportation/TransportationInitiative.aspx">Take the Transportation Initiative Survey</a>
+            <a className={styles.calltoaction} href="https://registration.elections.myflorida.com/en/CheckVoterStatus" target="_blank" rel="noreferrer">Check My Voter Registration</a>
           </div>
-          <br />
+          <p>
+            It is essential that we let our family and friends know about the difference we can make with our community&apos;s
+            transportation systems. Make sure they are registered to vote as well.
+          </p>
+        </Expandable>
+        <Expandable id="awareness" defaultState={autoExpand == "awareness"} title="Inform Your Community">
+          <p>
+            It&apos;s essential that more Orange County residents are aware of the Orange County Transportation Initiative. It is our opportunity to transform transportation, alleviating traffic, increase public safety, and increase access to jobs.
+          </p>
+          <p>Here are some links that you can share with your community:</p>
+          <ul className={styles.links}>
+            <li>
+              <a target="_blank" rel="noreferrer" href="https://www.orangecountyfl.net/TrafficTransportation/TransportationInitiative.aspx">
+                OrangeCountyFL.net - Transportation Initiative
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noreferrer" href="https://centralfloridiansforpublictransit.org">
+                CentralFloridiansForPublicTransit.org
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noreferrer" href="https://orlandobikes.org">
+                OrlandoBikes.org
+              </a>
+            </li>
+            <li>
+              <a href="https://endorlandotraffic.org">
+                EndOrlandoTraffic.org
+              </a>
+            </li>
+
+          </ul>
+          <div style={{margin: "3rem 0", textAlign: "center"}}>
+            <a target="_blank" rel="noreferrer" className={styles.calltoaction} href={"https://twitter.com/intent/tweet?" + tweetParams}>Tweet about EndOrlandoTraffic.org!</a>
+          </div>
         </Expandable>
         <Expandable id="contact" defaultState={autoExpand == "contact"}  title="Contact Your County Representatives">
           <p>
@@ -85,17 +115,16 @@ Thank you,
               <br /> <br />
               With many commuters traveling into Orange County, traffic congestion
               is a serious issue. With improved SunRail frequency and expanded service into
-              evenings and weekends, including an East-West corridor, connectivity without
+              evenings and weekends, including new corridors, connectivity without
               traffic can be a reality.
               <br /> <br />
-              It is essential that the vote for the transportation sales tax referendum be
-              included on the ballot. The Orlando area ranks as the most dangerous area
+              It is essential that the transportation sales tax referendum passes this year
+              on the ballot. The Orlando area ranks as the most dangerous area
               for pedestrians, and one of the worst for cyclists. If these measures are
               not taken, things will only continue to get worse.
               <br />
               <br />
-              Can I count on you to vote to place the transportation sales tax referendum on the
-              ballot this election year?
+              Can I count on you to vote to endorse this ballot measure in your community?
               <br />
               <br />
               Thank you, <br />
@@ -157,54 +186,6 @@ Thank you,
             <a href="mailto:district6@ocfl.net">district6@ocfl.net</a> <br />
             (407) 836-5860
           </p>
-        </Expandable>
-
-        <Expandable id="hearing" defaultState={autoExpand == "hearing"} title="Speak to the Board of County Commissioners">
-          <p>
-            The Board of County Commissioners votes on whether to put the referendum on the November 2022 ballot on <strong>Tuesday, April 26</strong>. Before this vote, there is a <strong>public hearing at 2pm</strong>.
-          </p>
-          <div style={{textAlign: "center", margin: "2rem 0"}}>
-             <a className={styles.calltoaction} target="_blank" rel="noreferrer" href="https://calendar.google.com/calendar/u/0/r/eventedit/copy/M2EyZm1kNmVucmpmNm9xY3B0M2tycTBhaGQgbmFxaXlAY2ZsNHRyYW5zaXQub3Jn" target="_blank" rel="noreferrer">Copy event to your calendar.</a>
-          </div>
-          <p>
-            Simply arrive 30 minutes prior to the meeting. If you have not registered to appear by this point,
-            you can still fill out a Notice of Intent to Speak form in order to appear before the Board.
-          </p>
-          <p>
-            You will have 2 minutes to speak, but you can simply say &quot;I am present in support of the Orange County Transportation Initiative.&quot; Feel free to speak your mind about traffic and how it can be alleviated with improved bus service, cycling safety, and pedestrian safety.
-          </p>
-        </Expandable>
-        <Expandable id="awareness" defaultState={autoExpand == "awareness"} title="Raise Awareness for the Orange County Transportation Initiative">
-          <p>
-            It&apos;s essential that more Orange County residents are aware of the Orange County Transportation Initiative.
-          </p>
-          <p>Here are some links that you can share with your community:</p>
-          <ul className={styles.links}>
-            <li>
-              <a htarget="_blank" rel="noreferrer" href="https://www.orangecountyfl.net/TrafficTransportation/TransportationInitiative.aspx">
-                OrangeCountyFL.net - Transportation Initiative
-              </a>
-            </li>
-            <li>
-              <a target="_blank" rel="noreferrer" href="https://centralfloridiansforpublictransit.org">
-                CentralFloridiansForPublicTransit.org
-              </a>
-            </li>
-            <li>
-              <a target="_blank" rel="noreferrer" href="https://orlandobikes.org">
-                OrlandoBikes.org
-              </a>
-            </li>
-            <li>
-              <a href="https://endorlandotraffic.org">
-                EndOrlandoTraffic.org
-              </a>
-            </li>
-
-          </ul>
-          <div style={{margin: "3rem 0", textAlign: "center"}}>
-            <a target="_blank" rel="noreferrer" className={styles.calltoaction} href={"https://twitter.com/intent/tweet?" + tweetParams}>Tweet about EndOrlandoTraffic.org!</a>
-          </div>
         </Expandable>
       </div>
     </div>

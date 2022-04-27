@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
 
 
     <div style={{overflowX: "hidden", boxSizing: "border-box"}}>
-      <Banner />
+      {/*      <Banner /> */}
       <Navbar />
       <main>
         <Component {...pageProps} />

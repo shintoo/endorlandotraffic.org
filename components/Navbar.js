@@ -10,7 +10,7 @@ export default function Navbar(props) {
 
   useEffect(_ => {
     window.addEventListener('scroll', _ => {
-      setScrolled(window.scrollY >= 73)
+      setScrolled(window.scrollY >= 0) // 73 if banner is being used
     })
   }, [])
   let navbarClasses = [styles.navbar]
