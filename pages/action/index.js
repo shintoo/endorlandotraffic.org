@@ -124,7 +124,7 @@ Thank you,
               not taken, things will only continue to get worse.
               <br />
               <br />
-              Can I count on you to vote to endorse this ballot measure in your community?
+              Can I count on you to endorse this ballot measure in your community?
               <br />
               <br />
               Thank you, <br />
